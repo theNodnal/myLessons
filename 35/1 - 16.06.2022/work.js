@@ -27,7 +27,7 @@ personalPlanSergiy.showAgeLands(personalPlanSergiy);
 
 function showExperience(plan) {
     return plan.skills.exp;    // TODO: деструктуризація погуглити 
-    
+                                // i study...
 }
 showExperience(personalPlanSergiy);
 
