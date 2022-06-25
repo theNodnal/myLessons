@@ -26,8 +26,8 @@ const personalPlanSergiy = {
 personalPlanSergiy.showAgeLands(personalPlanSergiy);
 
 function showExperience(plan) {
-    const { exp } = plan.skills;
-    return exp;
+    return plan.skills.exp;    // TODO: деструктуризація погуглити 
+    
 }
 showExperience(personalPlanSergiy);
 
